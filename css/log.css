@@ -1,0 +1,114 @@
+:root {
+  --mainColor: #ffffff;
+  --secondaryColor: #faeee0;
+  --fontmain: #754a0e;
+  --fontsecondary: #f9e4c8;
+}
+
+.login {
+  margin: 100px 0;
+}
+
+.login-box {
+  padding: 30px;
+  background-color: var(--secondaryColor);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.login-box h3 {
+  text-align: center;
+  font-size: 18pt;
+  color: #754a0e;
+  margin-bottom: 20px;
+}
+
+.login-box .form {
+  width: fit-content;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.login-box .form .log-form .input-box {
+  width: fit-content;
+  margin: 15px 0;
+}
+
+.login-box .form .log-form .input-box label {
+  color: var(--fontmain);
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.login-box .form .log-form .input-box input {
+  background-color: var(--mainColor);
+  border-color: var(--fontmain);
+  border-radius: 10px;
+  outline: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 0 5px;
+}
+
+.login-box .form .log-form .btn {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  font-size: 13pt;
+  background-color: #754a0e;
+  color: var(--mainColor);
+  font-weight: 600;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.login-box .form .log-form h4 a {
+  text-decoration: none;
+  color: var(--fontmain);
+}
+
+@media (max-width: 767px) {
+  .login-box {
+    padding: 15px;
+    width: fit-content;
+    overflow: hidden;
+  }
+  .login-box h3 {
+    font-size: 14pt;
+  }
+  .login-box .form .log-form .input-box {
+    width: fit-content;
+    margin: 0px;
+    text-align: left;
+  }
+  .login-box .form .log-form .input-box label {
+    font-size: 10pt;
+  }
+}
+
+@media (max-width: 360px) {
+  .login-box .form .log-form .input-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .login-box .form .log-form .input-box label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12pt;
+  }
+  .login-box {
+    width: auto;
+  }
+}
